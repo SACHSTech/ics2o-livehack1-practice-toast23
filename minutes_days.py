@@ -1,12 +1,22 @@
 """
 -------------------------------------------------------------------------------
-Name:   filename.py
-Purpose:  a description of your program
+Name:   minutes_days.py
+Purpose:  convert minutes to days, hours, and minutes
  
-Author: lastname.First Initial
+Author: Yao.T
  
-Created:  date in dd/mm/yyyy
+Created:  08/02/2021
 ------------------------------------------------------------------------------
 """
 
+#get mins
 minutes = int(input("Enter minutes"))
+
+#convert to days + hours + mins 
+days = minutes / 1440
+hours = (minutes%1440) / 60
+minsLeft = (minutes%1440) % 60
+
+#output
+print(f"{int(days)} days, {int(hours)} hours, and {int(minsLeft)} minutes.")
+

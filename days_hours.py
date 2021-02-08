@@ -12,6 +12,6 @@ Created:  08/02/2021
 #get hours
 hours = int(input("Enter hours: "))
 
-#convert to days and hours + output 
+#convert to days + hours and output 
 print(f"{int(hours / 24)} days and {hours % 24} hours")
 
