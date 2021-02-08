@@ -14,9 +14,9 @@ minutes = int(input("Enter minutes"))
 
 #convert to days + hours + mins 
 days = minutes / 1440
-hours = (minutes%1440) / 60
-minsLeft = (minutes%1440) % 60
+hours = minutes % 1440 / 60
+minsLeft = minutes % 1440 % 60
 
 #output
-print(f"{int(days)} days, {int(hours)} hours, and {int(minsLeft)} minutes.")
+print(f"\n{int(days)} days, {int(hours)} hours, and {int(minsLeft)} minutes.")
 

@@ -16,4 +16,4 @@ degreeF = float(input("Degrees in Fahrenheit: "))
 degreeC = (degreeF-32) / 1.8
 
 #output
-print(f"Degrees in Celsius: {round(degreeC, 2)}")
+print(f"\nDegrees in Celsius: {round(degreeC, 2)}")

@@ -13,5 +13,5 @@ Created:  08/02/2021
 hours = int(input("Enter hours: "))
 
 #convert to days + hours and output 
-print(f"{int(hours / 24)} days and {hours % 24} hours")
+print(f"\n{int(hours / 24)} days and {hours % 24} hours")
 
