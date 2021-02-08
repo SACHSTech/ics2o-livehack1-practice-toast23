@@ -13,7 +13,7 @@ Created:  08/02/2021
 degreeF = float(input("Degrees in Fahrenheit: "))
 
 #convert Fahrentheit to Celsius
-degreeC = (degreeF - 32) / 1.8
+degreeC = (degreeF-32) / 1.8
 
 #output
-print(f"Degrees in Celsius: {round(degreeC,2)}")
+print(f"Degrees in Celsius: {round(degreeC, 2)}")

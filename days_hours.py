@@ -1,11 +1,11 @@
 """
 -------------------------------------------------------------------------------
-Name:   filename.py
-Purpose:  a description of your program
+Name:   days_hours.py
+Purpose:  convert hours to days and hours
  
-Author: lastname.First Initial
+Author: Yao.T
  
-Created:  date in dd/mm/yyyy
+Created:  08/02/2021
 ------------------------------------------------------------------------------
 """
 
